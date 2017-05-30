@@ -1,0 +1,107 @@
+@import url('http://assets.strato/octicons/octicons.css');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+body {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#441177+0,55cc88+83 */
+background: #441177; /* Old browsers */
+background: -moz-linear-gradient(top,  #441177 0%, #55cc88 83%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #441177 0%,#55cc88 83%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #441177 0%,#55cc88 83%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#441177', endColorstr='#55cc88',GradientType=0 ); /* IE6-9 */
+
+
+height: 100vh;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: row;
+
+font-family: 'Rubik';
+
+margin: 0;
+padding: 0
+
+}
+
+.block {
+    background-color: white;
+    width: 65vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    color: transparent;
+}
+
+span {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#441177+0,55cc88+83 */
+background: #441177; /* Old browsers */
+background: -moz-linear-gradient(top,  #441177 0%, #55cc88 83%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #441177 0%,#55cc88 83%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #441177 0%,#55cc88 83%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#441177', endColorstr='#55cc88',GradientType=0 ); /* IE6-9 */
+background-size: 100% 100%;
+
+    
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+}
+
+.blue {
+background: #33bbbb;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+
+.blue-text {
+    color: #33bbbb
+}
+
+html {font-size: 1.188em}
+
+body {
+    font-family: 'Rubik';
+    font-weight: 400;
+    line-height: 1.45;
+}
+
+h1 {
+    margin-left: 0;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 3.998em;
+}
+
+h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  display: block
+}
+
+h1 {
+  font-size: 3.998em;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em; }
+
+h4 {font-size: 1.414em;}
+
+.footer {
+    position: fixed;
+    bottom: 3vh;
+    filter: opacity(50%);
+    transition-duration: .5s;
+}
+
+.footer:hover {
+    filter: opacity(100%);
+}
+
+* {
+    animation-timing-function: cubic-bezier(.81,.26,.7,.7) !important;
+}
