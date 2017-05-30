@@ -141,7 +141,8 @@ h4 {font-size: 1.414em;}
     width: 65vw;
     height: 75vh;
     z-index: 6;
-    border: none
+    border: none;
+    transition-duration: .5s;
 }
 
 a {
