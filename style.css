@@ -148,3 +148,24 @@ h4 {font-size: 1.414em;}
 a {
     text-decoration: none;
 }
+
+/* Colors */
+.blue {
+    color: #33bbbb
+}
+
+.green {
+    color: #55cc88
+}
+
+.yellow {
+    color: #eecc44
+}
+
+.purple {
+    color: #441177
+}
+
+.grey {
+    color: #595f72
+}
