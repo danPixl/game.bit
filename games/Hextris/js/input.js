@@ -80,19 +80,19 @@ function addKeyListeners() {
 	});
 
 	$("#colorBlindBtn").on('touchstart mousedown', function() {
-	window.colors = ["#8e44ad", "#f1c40f", "#3498db", "#d35400"];
+	window.colors = ["#8e44ad", "#eecc44", "#33bbbb", "#d35400"];
 
 	window.hexColorsToTintedColors = {
 		"#8e44ad": "rgb(229,152,102)",
-		"#f1c40f": "rgb(246,223,133)",
-		"#3498db": "rgb(151,201,235)",
+		"#eecc44": "rgb(246,223,133)",
+		"#33bbbb": "rgb(151,201,235)",
 		"#d35400": "rgb(210,180,222)"
 	};
 
 	window.rgbToHex = {
 		"rgb(142,68,173)": "#8e44ad",
-		"rgb(241,196,15)": "#f1c40f",
-		"rgb(52,152,219)": "#3498db",
+		"rgb(241,196,15)": "#eecc44",
+		"rgb(52,152,219)": "#33bbbb",
 		"rgb(211,84,0)": "#d35400"
 	};
 
