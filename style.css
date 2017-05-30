@@ -117,6 +117,21 @@ h4 {font-size: 1.414em;}
     filter: opacity(100%);
 }
 
+.header {
+    position: fixed;
+    top: 3vh;
+    filter: opacity(50%);
+    transition-duration: .5s;
+}
+
+.header:hover {
+    filter: opacity(100%);
+}
+
 * {
     animation-timing-function: cubic-bezier(.81,.26,.7,.7) !important;
+}
+
+.container {
+    width: fit-content
 }
