@@ -1,14 +1,28 @@
 @import url('http://assets.strato/octicons/octicons.css');
 @import url('https://fonts.googleapis.com/css?family=Rubik');
-body {
+
+html {
+    filter: grayscale(100%);
+    transition-duration: .5s;
+}
+
+html:hover {
+    filter: grayscale(0%);
+}
+
+.bg {
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#441177+0,55cc88+83 */
 background: #441177; /* Old browsers */
 background: -moz-linear-gradient(top,  #441177 0%, #55cc88 83%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  #441177 0%,#55cc88 83%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  #441177 0%,#55cc88 83%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#441177', endColorstr='#55cc88',GradientType=0 ); /* IE6-9 */
+width: 100vw;
+height: 100vh;
+position: fixed
+}
 
-
+body {
 height: 100vh;
 
 display: flex;
@@ -24,6 +38,7 @@ padding: 0
 }
 
 .block {
+    z-index: 5;
     background-color: white;
     width: 65vw;
     height: 100vh;
