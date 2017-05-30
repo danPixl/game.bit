@@ -254,8 +254,8 @@ var Board = (function () {
 }());
 Board.ROWS = 6;
 Board.COLUMNS = 7;
-Board.PLAYER_1_COLOR = '#ef453b';
-Board.PLAYER_2_COLOR = '#0059ff';
+Board.PLAYER_1_COLOR = '#55cc88';
+Board.PLAYER_2_COLOR = '#33bbbb';
 Board.PIECE_STROKE_STYLE = 'black';
 Board.MASK_COLOR = '#d8d8d8';
 exports.Board = Board;

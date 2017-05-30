@@ -10,8 +10,8 @@ export enum BoardPiece {
 export class Board {
   static readonly ROWS: number = 6;
   static readonly COLUMNS: number = 7;
-  static readonly PLAYER_1_COLOR: string = '#ef453b';
-  static readonly PLAYER_2_COLOR: string = '#0059ff';
+  static readonly PLAYER_1_COLOR: string = '#55cc88';
+  static readonly PLAYER_2_COLOR: string = '#33bbbb';
   static readonly PIECE_STROKE_STYLE: string = 'black';
   static readonly MASK_COLOR: string = '#d8d8d8';
   static CANVAS_HEIGHT: number;
