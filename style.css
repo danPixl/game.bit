@@ -132,6 +132,13 @@ h4 {font-size: 1.414em;}
     animation-timing-function: cubic-bezier(.81,.26,.7,.7) !important;
 }
 
-.container {
-    width: fit-content
+.pixl-logo {
+    margin-bottom: -15px
+}
+
+.game {
+    position: fixed;
+    width: 65vw;
+    height: 50vh;
+    z-index: 6;
 }

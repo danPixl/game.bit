@@ -17,21 +17,19 @@
 <div class="block">
 <h4 class="header"><input type="text" id="gameToLaunch"/><button onclick="launch();" href="javascript;">Play</button></h4>
 
-<div class="container" id='container'>
-    <h2><b><span>GAME.BIT</span></b></h2>
-    <p><span>Current games: <b>Hextris</b></span></p>
-</div>
+<h2><b><span>GAME.BIT</span></b></h2>
+<p><span>Current games: <b>Hextris</b></span></p>
 
 <script>
     function launch(){
-        var appToLaunch = document.getElementById('gameToLaunch')
-        var container = document.getElementById('container')
-        document.getElementById('container').innerHTML === document.getElementById('container').innerHTML.replace('<h2><b><span>GAME.BIT</span></b></h2>', '<iframe src="games/' + gameToLaunch.value + '/index.html"></iframe>')
-        alert(appToLaunch.value)
+        var gameToLaunch = document.getElementById('gameToLaunch')
+        var body = document.getElementsByTagName('body')
+        document.body.innerHTML +='<iframe class="game" src="games/' + gameToLaunch.value + '/index.html"></iframe>'
+        alert(gameToLaunch.value)
     }
 </script>
 
-<h4 class="footer"><span class="blue-text"><svg version="1.1" width="28" height="32" viewBox="0 0 14 16" class="octicon octicon-pencil" aria-hidden="true"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pencil"></use></svg></span><span class="blue"> by <b>danPixl</b></span></h4>
+<h4 class="footer"><span class="blue-text"><svg version="1.1" width="28" height="32" viewBox="0 0 14 16" class="octicon octicon-pencil" aria-hidden="true"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pencil"></use></svg></span><span class="blue"> by <img src="http://d.pixl/pixl.svg" height="42" class="pixl-logo"></span></h4>
 
 </div>
 
